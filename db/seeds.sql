@@ -1,0 +1,1 @@
+INSERT INTO burgers (burger_name,devoured) VALUES ('Baconator', true),('Cheese Burger',false),('Philly Steak Burger',true);
