@@ -6,3 +6,19 @@
 body {
   background-color: orange;
 }
+
+.test {
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: red;
+}
+
+h4 {
+  color: blue;
+}

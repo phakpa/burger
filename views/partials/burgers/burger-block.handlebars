@@ -1,8 +1,10 @@
-<div class="notDevoured">
-    {{id}}. {{burger_name}}
-
-    <button class=" devourIt" data-id="{{id}}">
-        {{#if devoured}}DEVOUR{{else}}YUMMY{{/if}}
-    </button>
-
+<div class="row">
+    <div class="col-sm-9 test center">
+        {{id}}. {{burger_name}}
+    </div>
+    <div class="col-sm-3">
+        {{#if devoured}} <button class=" devourIt" data-id="{{id}}">
+            DEVOUR
+        </button>{{/if}}
+    </div>
 </div>
